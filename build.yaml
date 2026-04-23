@@ -19,3 +19,5 @@ include:
     shield: lpm_view;left_bbtrackpad;settings_reset
   - board: zitaotech_sofle_right
     shield: lpm_view;right_trackpoint;settings_reset
+  - board: nice_nano_v2
+    shield: sofle_dongle
