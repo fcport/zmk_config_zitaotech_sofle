@@ -25,9 +25,7 @@ include:
   - board: nice_nano_v2
     shield: sofle_dongle snake_adapter
     artifact-name: snake_dongle
-  - board: zitaotech_sofle_left
-    shield: lpm_view;left_bbtrackball
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: zitaotech_sofle_right
-    shield: lpm_view;right_trackpoint
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  # - board: zitaotech_sofle_left
+  #   shield: lpm_view;left_bbtrackball
+  # - board: zitaotech_sofle_right
+  #   shield: lpm_view;right_trackpoint

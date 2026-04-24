@@ -1,14 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "../../zitaotech_sofle-layouts.dtsi"
-
-&zitaotech_sofle_layout {
-    transform = <&default_transform>;
-};
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layouts = &zitaotech_sofle_layout;
     };
 
     mock_kscan: mock_kscan_0 {
